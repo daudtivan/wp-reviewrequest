@@ -12,3 +12,8 @@ References:
 2. FooEvents support: "(...)there is a hook 'fooevents_check_in_ticket' available that you could custom code something to send out when that hook is fired."
 3. Customer Reviews for WooCommerce "(...)You can create a new instance of the class Ivole_Email and call the function trigger2() to send a review reminder email with code.
 You can read more about this action in the file wp-content/plugins/customer-reviews-woocommerce/includes/reminders/class-cr-manual.php – line 190." Full thread on https://wordpress.org/support/topic/send-review-email-with-code/
+
+Required data
+1. Order info:
+    - customer data
+    - product/event data
